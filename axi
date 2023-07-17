@@ -2,6 +2,5 @@ import os
 import time
 os.system('git pull')
 
-import axi
+import axi.cpython-311.so
 infinty()
-#print('\033[91mplease wait owner is updating the>
