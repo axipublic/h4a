@@ -7,7 +7,7 @@ if __name__ == "__main__":
 
        os.system("git pull")
 
-       __import__("ax2r").infinty()
+       __import__("axi").infinty()
 
    except Exception as e: 
 
