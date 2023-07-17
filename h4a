@@ -7,8 +7,11 @@ if __name__ == "__main__":
 
        os.system("git pull")
 
-       __import__("axi").infinty.logo()
+       __import__("axi").infinty()
 
+       system = System(models)
+	    system.logo = logo
+	    infinty()
    except Exception as e: 
 
        exit(str(e))
