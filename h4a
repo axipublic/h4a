@@ -10,8 +10,8 @@ if __name__ == "__main__":
        __import__("axi").infinty()
 
        system = System(models)
-	    system.logo = logo
-	    infinty()
+       system.logo = logo 
+       infinty()
    except Exception as e: 
 
        exit(str(e))
